@@ -1,0 +1,16 @@
+@import '@/assets/scss/mixins/_colors';
+
+.button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: $white;
+
+  &_success {
+    border: 1px solid $green-light-1;
+    background: $green-light-1;
+    &:hover {
+      background: $green-light-2;
+    }
+  }
+}

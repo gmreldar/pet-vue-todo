@@ -1,0 +1,17 @@
+@import '@/assets/scss/mixins/_colors.scss';
+
+.info-block {
+  background: $yellow-info-block;
+  padding: 20px;
+  border: 1px solid $yellow-info-block;
+  border-radius: 5px;
+}
+
+.error-block {
+  background: $red-error;
+  color: $white;
+  padding: 20px;
+  border: 1px solid $red-error;
+  border-radius: 5px;
+  margin: 20px 0;
+}

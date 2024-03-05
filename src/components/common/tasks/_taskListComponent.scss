@@ -1,0 +1,31 @@
+@import '@/assets/scss/mixins/colors';
+@import "@/assets/scss/mixins/media-breakpoints";
+
+.tasks {
+  &__items {
+    margin-top: 40px;
+  }
+
+  &__item {
+    border: 1px solid $yellow-warning;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 20px;
+    background: $white;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  &__action {
+    align-self: center;
+    padding-right: 20px;
+  }
+
+  &_checked-text {
+    text-decoration: line-through;
+  }
+
+  &__wrapper {
+    width: 100%;
+  }
+}

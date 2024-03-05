@@ -1,0 +1,33 @@
+@import '@/assets/scss/mixins/_colors.scss';
+@import "@/assets/scss/mixins/_media-breakpoints.scss";
+@import "@/assets/scss/mixins/_blocks.scss";
+
+.main-form {
+  border: 1px solid $yellow-warning;
+  border-radius: 5px;
+  background: $white;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+
+  &__form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    height: 25px;
+    outline: none;
+    padding: 0 10px;
+  }
+
+  &__action {
+    margin-top: 20px;
+  }
+
+  .error {
+    color: $red-error;
+    display: none;
+  }
+}
